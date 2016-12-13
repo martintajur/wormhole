@@ -24,6 +24,8 @@ Wormhole is a live video link software for connecting remote locations with perm
 
 Wormhole will turn the Raspberry into a mjpeg-streaming video server and will make it display another end of the wormhole (e.g. another Raspberry on the same network with the same setup) in fullscreen mode in a fault-tolerant fashion (e.g. network interruptions, unplugging webcams will only temporarily suspend the video link).
 
+Live video can also be streamed by pointing any web browser to the following address: `http://{RASPBERRY_IP}:8080/`. Furthermore, you can access the mjpg stream directly at `http://{RASPBERRY_IP}:8080/cam.mjpg` which can be consumed/played by VLC, mplayer, omxplayer et al.
+
 ### License
 
 MIT
