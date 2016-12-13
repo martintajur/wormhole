@@ -2,6 +2,8 @@
 
 Live video link software for using between multiple offices with Raspberry Pi 2/3.
 
+---
+
 ## Setup in 1-2-3 steps
 
 1. Download Rasbpian Jessie with Pixel (https://downloads.raspberrypi.org/raspbian_latest)
@@ -19,7 +21,9 @@ Live video link software for using between multiple offices with Raspberry Pi 2/
  * Video4Linux2 compatible webcam connected to Raspberry via USB
  * Internet connection (static internal IPs)
 
-### What this will do
+---
+
+### What is this?
 
 Wormhole is a live video link software for connecting remote locations with permanent video bridge (no audio support yet).
 
