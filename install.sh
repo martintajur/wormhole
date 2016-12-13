@@ -57,7 +57,7 @@ sudo cp $CURDIR/files/etc-lightdm-lightdm.conf /etc/lightdm/lightdm.conf
 ## set up start video player on boot to x
 mkdir /home/pi/.config/autostart
 sudo cp $CURDIR/files/home-pi-dotconfig-autostart-dotdesktop /home/pi/.config/autostart/.desktop
-chmod +x /home/pi/.config/autostart/.desktop
+sudo chmod +x /home/pi/.config/autostart/.desktop
 
 echo $SPLIT
 echo "Wormhole setup completed! Rebooting ..."
