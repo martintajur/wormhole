@@ -42,6 +42,9 @@ cd /home/pi
 ## install mjpeg-streamer service
 git clone https://github.com/pipedrive/node-mjpeg-streamer
 
+cd node-mjpeg-streamer
+npm install
+
 ## set up start video capturing on boot
 sudo cp $CURDIR/files/etc-rc-local /etc/rc.local
 
