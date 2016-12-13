@@ -63,11 +63,13 @@ sudo chmod +x /home/pi/.config/autostart/.desktop
 sudo cp $CURDIR/files/home-pi-dotconfig-pcmanfm-LXDE-pi-desktop-items-0.conf /home/pi/.config/pcmanfm/LXDE-pi/desktop-items-0.conf
 
 echo $SPLIT
+echo "It is highly recommended to change the default password for user 'pi' on this machine."
+echo $SPLIT
 
 passwd
 
 echo $SPLIT
-echo "Wormhole setup completed!"
+echo "Wormhole setup completed! Rebooting ..."
 echo $SPLIT
 
 sleep 1
