@@ -59,8 +59,15 @@ mkdir /home/pi/.config/autostart
 sudo cp $CURDIR/files/home-pi-dotconfig-autostart-dotdesktop /home/pi/.config/autostart/.desktop
 sudo chmod +x /home/pi/.config/autostart/.desktop
 
+## make desktop black, no icons
+sudo cp $CURDIR/files/home-pi-dotconfig-pcmanfm-LXDE-pi-desktop-items-0.conf /home/pi/.config/pcmanfm/LXDE-pi/desktop-items-0.conf
+
 echo $SPLIT
-echo "Wormhole setup completed! Rebooting ..."
+
+passwd
+
+echo $SPLIT
+echo "Wormhole setup completed!"
 echo $SPLIT
 
 sleep 1
