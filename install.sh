@@ -19,7 +19,7 @@ sudo apt-get -y update
 sudo apt-get install -y build-essential pkg-config
 
 ## install image i/o codecs
-sudo apt-get install -y libjpeg8-dev libpng12-dev
+sudo apt-get install -y libjpeg8-dev libpng12-dev mplayer
 
 ## install video i/o codecs
 sudo apt-get install -y libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
