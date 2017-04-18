@@ -17,6 +17,6 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-/usr/bin/forever start --minUptime=1000 --spinSleepTime=100 /home/pi/node-mjpeg-streamer/mjpeg-streamer.js --width=1024 --height=768
+/usr/bin/forever start --minUptime=1000 --spinSleepTime=100 /home/pi/node-mjpeg-streamer/mjpeg-streamer.js --width=1024 --height=768 > /dev/null 2>&1
 
 exit 0
