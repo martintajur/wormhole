@@ -1,3 +1,3 @@
 [Desktop Entry]
 Type=Application
-Exec=lxterminal -e "/usr/bin/forever start --minUptime=1000 --spinSleepTime=1000 /home/pi/wormhole/bin/mplayer.js"
+Exec=lxterminal -e "/usr/bin/forever start --minUptime=1000 --spinSleepTime=1000 /home/pi/wormhole/bin/mplayer.js > /dev/null 2>&1"
